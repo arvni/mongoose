@@ -1,4 +1,4 @@
-import stream = require('stream');
+import * as stream from 'stream';
 
 declare module 'mongoose' {
   type CursorFlag = 'tailable' | 'oplogReplay' | 'noCursorTimeout' | 'awaitData' | 'partial';
